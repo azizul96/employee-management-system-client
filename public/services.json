@@ -1,0 +1,37 @@
+[
+  {
+    "count": 1,
+    "name": "Payroll System",
+    "image": "https://i.ibb.co/bKkHJZV/payroll1.png"
+  },
+  {
+    "count": 2,
+    "name": "Attendance Tracking",
+    "image": "https://i.ibb.co/K2cR3BW/Attendance.png"
+  },
+  {
+    "count": 3,
+    "name": "Information Management",
+    "image": "https://i.ibb.co/n3JkR4M/employee-info.png"
+  },
+  {
+    "count": 4,
+    "name": "On-boarding Off-boarding",
+    "image": "https://i.ibb.co/DYQpfv8/onboarding.png"
+  },
+  {
+    "count": 5,
+    "name": "Well-being Programs",
+    "image": "https://i.ibb.co/b1w0SBG/wellness1.png"
+  },
+  {
+    "count": 6,
+    "name": "Security & Access Control",
+    "image": "https://i.ibb.co/t4ZyJnv/security1.jpg"
+  }
+]
+
+
+
+
+
