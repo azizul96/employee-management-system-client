@@ -6,9 +6,9 @@ import { FaCheck } from "react-icons/fa6";
 
 const Banner = () => {
   return (
-    <Carousel className="bg-[#fb8500] ">
+    <Carousel className="bg-[#fb8500] mb-20">
       <div className=" container mx-auto">
-        <div className=" flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
+        <div className=" flex flex-col px-6 py-16 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
           <div className="w-full lg:w-1/2">
               <div className=" text-start">
                   <h1 className="text-3xl font-semibold tracking-wide text-white dark:text-white lg:text-3xl">Empowering HR, Elevating<br /> Employee Experiences.</h1>
