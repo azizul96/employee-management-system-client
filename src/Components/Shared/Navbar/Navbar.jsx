@@ -28,30 +28,27 @@ const Navbar = () => {
                 isActive ? " text-white underline" : isPending ? "pending" : "text-white"}>
                 <li className="font-semibold px-3 py-2 flex items-center gap-1"><FaAddressBook/>Contact</li>
             </NavLink>
-            <NavLink to="/contact" className={({ isActive, isPending }) =>
-                isActive ? " text-white underline" : isPending ? "pending" : "text-white"}>
-                <li className="font-semibold px-3 py-2 flex items-center gap-1"><FaOutdent/>About </li>
-            </NavLink>
+            
 
             {
                 isAdmin && 
                 <NavLink to="/dashboard/adminHome" className={({ isActive, isPending }) =>
                 isActive ? "text-white underline" : isPending ? "pending" : "text-white"}>
-                <li className="font-semibold px-3 py-2">Dashboard</li>
+                <li className="font-semibold px-3 py-2 flex items-center gap-1"><FaDashcube/>Dashboard</li>
                 </NavLink>
             }
             {
                 isHr && 
                 <NavLink to="/dashboard/hrHome" className={({ isActive, isPending }) =>
                 isActive ? "text-white underline" : isPending ? "pending" : "text-white"}>
-                <li className="font-semibold px-3 py-2">Dashboard</li>
+                <li className="font-semibold px-3 py-2 flex items-center gap-1"><FaDashcube/>Dashboard</li>
                 </NavLink>
             }
             {
                 isEmployee && 
                 <NavLink to="/dashboard/employeeHome" className={({ isActive, isPending }) =>
                 isActive ? "text-white underline" : isPending ? "pending" : "text-white"}>
-                <li className="font-semibold px-3 py-2">Dashboard</li>
+                <li className="font-semibold px-3 py-2 flex items-center gap-1"><FaDashcube/>Dashboard</li>
                 </NavLink>
             }
             {
@@ -67,7 +64,7 @@ const Navbar = () => {
 )
     return (
         <div className="bg-[#fb8500] ">
-            <div className="navbar container mx-auto py-2">
+            <div className="navbar container mx-auto py-5">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">

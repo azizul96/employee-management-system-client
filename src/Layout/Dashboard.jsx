@@ -20,9 +20,9 @@ const Dashboard = () => {
                 <title>EMS | Dashboard</title>
             </Helmet>
             <Navbar></Navbar>
-            <div className="flex flex-col md:flex-row container mx-auto gap-2">
-                <div className=" h-auto md:w-56  md:h-screen bg-[#2a9d8f] rounded-md">
-                    <ul className="menu p-4 space-y-1 text-white font-semibold">
+            <div className="flex flex-col md:flex-row  gap-2 ">
+                <div className=" h-auto md:w-56  md:h-screen bg-[#fb8500] ">
+                    <ul className="menu p-6 space-y-1 text-white font-semibold">
                         {
                             isAdmin && 
                             <>
@@ -50,7 +50,7 @@ const Dashboard = () => {
                         
                     </ul>
                 </div>
-                <div className="flex-1">
+                <div className="flex-1 px-5 mt-5">
                     <Outlet></Outlet>
                 </div>
             </div>
