@@ -13,9 +13,9 @@ const Home = () => {
                 <title>EMS | Home</title>
             </Helmet>
             <Banner></Banner>
-            <Testimonials></Testimonials>
             <Services></Services>
             <Portfolio></Portfolio>
+            <Testimonials></Testimonials>
             <Newsletter></Newsletter>
         </div>
     );

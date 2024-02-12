@@ -12,8 +12,8 @@ const Newsletter = () => {
     return (
         <div className="container mx-auto mt-10">
             <SectionTitle heading="NewsLetter"></SectionTitle>
-            <div className="flex flex-col gap-3 mx-auto overflow-hidden rounded-lg shadow-lg dark:bg-gray-800 md:flex-row md:h-48">
-                <div className="md:flex md:items-center md:justify-center md:w-1/2  bg-[#264653]">
+            <div className="flex flex-col gap-3 mx-auto overflow-hidden rounded-lg shadow-xl dark:bg-gray-800 md:flex-row md:h-48 border-[#fb8500] border">
+                <div className="md:flex md:items-center md:justify-center md:w-1/2  bg-[#fb8500]">
                     <div className="px-6 py-6 md:px-8 md:py-0">
                         <h2 className="text-lg font-bold text-white dark:text-white ">Sign Up For  Updates</h2>
 

@@ -46,7 +46,7 @@ const Login = () => {
             <Helmet>
                 <title>EMS | Login</title>
             </Helmet>
-            <div className="flex w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 lg:max-w-4xl">
+            <div className="flex w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 lg:max-w-4xl mt-10">
 
                 <div className="hidden bg-cover lg:block lg:w-1/2" >
                     <img src="/login.webp" alt="" className="object-cover" />
